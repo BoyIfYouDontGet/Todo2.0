@@ -24,7 +24,7 @@
       }
    
 ?>
-<a href="http://localhost/To-Do-App 2/index.php">
+<a href="http://localhost/Todo2/index.php">
 <button type="button" class="btn btn-primary">Continue</button>
 </body>
 </html>

@@ -3,12 +3,12 @@ require_once(__DIR__ . "/Database.php");
 //sessions perserve information so we wouldn't have to generate the information over and over again
 session_start();
 session_regenerate_id(true);
-$path = "/To-Do-App 2/php/";
+$path = "/Todo2/php/";
 //This code came from the database, delete the old one a ceate a new one
 $host = "localhost";
 $username = "root";
 $password = "root";
-$database = "todo2";
+$database = "Todo2";
 //Allows our connection to be accessed across all of our web sites
 if(!isset($_SESSION["connection"])) {   
 //Create a new object
