@@ -1,12 +1,19 @@
-@import "css/reset.css";
-@import "css/normalize.css";
+@import "reset.css";
+@import "normalize.css";
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 body {
+	background: url(http://aviatstudios.com/wp-content/uploads/2012/07/whitePaintedBrickWallTexture.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  
+  background-size: 100% 100%;
+	font-family: 'Open Sans', sans-serif;
 	font: normal 14px "Open Sans", Arial, sans-serif;
-	color: #999;
-	background: #f1f1f1;
+	
+	
 }
 
 .wrap {
@@ -21,4 +28,22 @@ body {
 	box-shadow: 2px 2px 0px #ddd;
 	margin-top: 40px;
 	padding: 22px 6%;
+}
+title {
+	text-align: right;
+	text-align: center;
+	border-bottom: 3px solid black;
+	padding-bottom: 5px;
+	margin-left: 300px ;
+	margin-right: 300px;
+
+}
+h1 {
+	
+}
+div {
+	text-align: left;
+}
+nav a {
+	color: red;
 }

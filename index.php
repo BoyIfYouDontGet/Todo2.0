@@ -5,12 +5,15 @@
 <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
+<div class="col-xs-2">
+					<nav class="list-group">
+						<a class="list-group-item" href="login.php"> Login </a>
+						<a class="list-group-item" href="logout-user.php"> Logout </a>
+						<a class="list-group-item" href="register.php"> Register </a>
+						
+						</nav>
+			</div>
 
-<a class="btn btn-primary" href="login.php">Login</a>
-<div class="text-right small-4 medium-2 columns">
-<a class="btn btn-primary" href="logout-user.php">Logout</a>
-</div>
-<a class="btn btn-primary" href="register.php">Register</a>
 
 <div class="wrap">
 	<div class="task-list">
